@@ -11,8 +11,7 @@ nav a {
   text-transform: uppercase;
 }
 
-nav a: hover { 
-    color: black;
+ nav a:hover { 
     text-decoration: none;
 } 
 
@@ -47,23 +46,55 @@ header {
      background-size: cover;
      display: flex;
      height: 600px;
+     margin-bottom: 10px;
 } 
 
 .image { 
   height: 800px;
   width: 1400px;
-  display: inline;
 }
 
-.img-circle { 
+.rounded-circle { 
    width:200px;
    height: 200px;
    margin-bottom: 10px;
-   display: inline;
+ 
 }
 
 .bg-1 { 
    padding-top: 70px;
    padding-bottom: 70px;
-   background-color: #1abc9c; 
+   background-color: #1abc9c;
+   margin-bottom: 30px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+  /*background-image: url("http://cdn.ek.aero/us/english/images/New-York-1_tcm272-2256848.jpg");*/
+  margin-top: 50px;
+  background-color: black;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+ footer .col-sm-4 {
+   color: #FFF; 
+}
+
+footer .row {
+  display: flex;
+  align-items: center;
 }
