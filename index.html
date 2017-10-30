@@ -1,3 +1,4 @@
+<!Doctype html>
 <!-- 
     Class 1:
         1.1 Wireframe your project
@@ -10,33 +11,61 @@
         3.2 Add CSS and add your site to gh-pages 
 -->
 
-<!DOCTYPE html>
+
 <head>   
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
    <link rel="stylesheet" type="text" href="home.css">
+   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 </head>
 
 <body>
-    <!-- Nav Bar -->
-     <header class="container">
+  <!-- Nav Bar------------------------------------------>
+  <header class="container">
+      <div class="row"> 
+         <div class="col-sm-8">
+             <h1>Louis Gabrie</h1>
+         </div>
+      </div>
     <div class="row">
-      <h1 class="col-sm-8">Louis Gabrie</h1>
+      <p id="tag" class="col-sm-8">High School Student</p>
       <nav class="col-sm-4">
-        <p><a href="#">About Me</a></p>
-        <p><a href="#about">Contact</a></p>
-        <p><a href="#contact">Projects</a></p>
+        <p><a href="#about">about me</a></p>
+        <p><a href="#contact">contact</a></p>
+        <p><a href="#projects">projects</a></p>
       </nav>
     </div>
   </header>
-    <!-- Header -->
-    
-
+ <!-- Main Photo------------------------------------------->
+    <section class="jumbotron">
+      <div class="container"> 
+      </div>
+    </section>
     <!-- Portfolio Grid Section -->
-    
-
+        <div id="about" class="container-fluid bg-1 text-center">
+      <h3>I am Louis Gabrie</h3>
+         <img class="img-responsive img-circle" src="https://i.ytimg.com/vi/bg8fQkLZTYc/maxresdefault.jpg" alt="Bird">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+    <div class="container-fluid bg-3 text-center"> 
+  <h3>What I like to do?</h3>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <img class="img-responsive img-circle" src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/new-york-city-skyline-dream-vivienne-gucwa.jpg" alt="Image">
+    </div>
+    <div class="col-sm-4">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <img class="img-responsive img-circle" src="http://thescienceofinteractive.com/wp-content/uploads/2017/03/code.jpg" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <img class="img-responsive img-circle" src="https://s-media-cache-ak0.pinimg.com/originals/72/0b/ec/720becfe4faf28a5614947cf8b35ed58.jpg" alt="Image">
+    </div>
+  </div>
+</div>
     <!-- About Section -->
    
 
@@ -44,7 +73,20 @@
 
 
     <!-- Footer -->
-
+  <footer id="contact" class="container-fluid">
+    <div class="row">
+      <p class="col-sm-4">&copy; 2016 Louis Gabrie</p>
+      <ul class="col-sm-8">
+        <li class="col-sm-1">
+        <a href="https://twitter.com/louisgabrie">
+          <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg"> </a>
+        </li>
+        <li class="col-sm-1">
+        <a href="https://instagram.com/a_visual_bliss"> 
+          <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg"> </a>
+       </li>
+       </ul>
+     </div>
+   </footer>  
 </body>
-
 </html>
