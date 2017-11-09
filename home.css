@@ -58,8 +58,12 @@ header {
    width:200px;
    height: 200px;
    margin-bottom: 10px;
- 
 }
+
+.profile { 
+   width: 250px;
+   height: 200px;
+} 
 
 .bg-1 { 
    padding-top: 70px;
@@ -67,6 +71,10 @@ header {
    background-color: #1abc9c;
    margin-bottom: 30px;
 }
+.gallery {
+  padding-top: 50px;
+}
+
 
 footer {
   font-size: 12px;
@@ -98,3 +106,4 @@ footer .row {
   display: flex;
   align-items: center;
 }
+
