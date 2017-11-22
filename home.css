@@ -6,7 +6,7 @@ body {
 nav a {
   padding: 0 19px;
   margin: 0;
-  color: black;
+  color: white;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -23,12 +23,17 @@ header nav {
 
 #tag { 
   font-size: 30px;
+  color: white;
+} 
+
+.row { 
+     margin-left: 0px;    
 } 
 
 header h1 {
   margin: 0;
   font-family: Oswald, ;
-  color: black;
+  color: white;
   font-size: 30px;
 }
 
@@ -41,12 +46,15 @@ header {
   padding: 12px;
 }
 
-.jumbotron { 
+header { 
+     background: black;  
+} 
+
+.jumbotron-fluid { 
      background-image: url("https://www.travel-break.net/wp-content/uploads/2015/06/NYC-Subway-by-Jonathan-Suarez-TravelBreak.net_.jpg");
      background-size: cover;
      display: flex;
      height: 600px;
-     margin-bottom: 10px;
 } 
 
 .image { 
@@ -70,6 +78,7 @@ header {
    padding-bottom: 70px;
    background-color: #1abc9c;
    margin-bottom: 30px;
+   font-family: 'Ubuntu' , sans-serif;
 }
 .gallery {
   padding-top: 50px;
