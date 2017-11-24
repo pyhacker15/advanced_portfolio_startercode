@@ -32,7 +32,7 @@ header nav {
 
 header h1 {
   margin: 0;
-  font-family: Oswald, ;
+  font-family: Oswald;
   color: white;
   font-size: 30px;
 }
@@ -78,7 +78,7 @@ header {
    padding-bottom: 70px;
    background-color: #1abc9c;
    margin-bottom: 30px;
-   font-family: 'Ubuntu' , sans-serif;
+   font-family: Ubuntu; 
 }
 .gallery {
   padding-top: 50px;
