@@ -4,7 +4,7 @@
 // Class 2
     // create a data representation of your portfolio using nested objects
     // learn to access properties of an object using dot and bracket notation
-    // use jquery to update your portfolio html (make sure to add appropriate class to your HTML
+    // use jquery to update your portfolio html (make sure to add appropriate class to your HTML)
 // Class 3
     // add like buttons to your html and like property to your object
     // add new properties, modify, and delete properties an object
