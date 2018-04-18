@@ -35,6 +35,7 @@ header h1 {
   font-family: Oswald;
   color: white;
   font-size: 30px;
+  margin-top: 20px;
 }
 
 header .row {
@@ -44,17 +45,33 @@ header .row {
 
 header {
   padding: 12px;
+  position: fixed;
+  z-index: 1;
 }
 
-header { 
-     background: black;  
+
+.shrink {
+	background-color: black;
+	font-size: smaller;
+} 
+
+.shrink h1 { 
+     font-size: 20px;  
+}
+
+.shrink #tag { 
+    font-size: 15px;
+} 
+
+#sub-heading { 
+     color: grey;  
 } 
 
 .jumbotron-fluid { 
      background-image: url("https://www.travel-break.net/wp-content/uploads/2015/06/NYC-Subway-by-Jonathan-Suarez-TravelBreak.net_.jpg");
-     background-size: cover;
+     background-size: contain;
      display: flex;
-     height: 600px;
+     height: 900px;
 } 
 
 .image { 
@@ -69,25 +86,47 @@ header {
 }
 
 .profile { 
-   width: 250px;
-   height: 200px;
+   width: 323px;
+   height: 256px;
 } 
 
 .bg-1 { 
    padding-top: 70px;
    padding-bottom: 70px;
    background-color: #1abc9c;
-   margin-bottom: 30px;
+   margin-bottom: 52px;
    font-family: Ubuntu; 
 }
+
+.bg-1 h3 { 
+    margin-bottom: 15px;
+} 
+
+.bg-3 h3 { 
+     margin-bottom: 52px;
+     text-align: center;
+} 
+
 .gallery {
   padding-top: 50px;
 }
 
+.lang { 
+     margin-bottom: 25px;
+     margin-top: 25px;
+} 
+
+hr  { 
+  border-style: solid; 
+  border-color: black; 
+  border-width: 1px 0 0 0; 
+  border-radius: 20px; 
+  width: 1300px;
+} 
 
 footer {
   font-size: 12px;
-  padding: 20px 0;
+  padding: 30px 0;
   /*background-image: url("http://cdn.ek.aero/us/english/images/New-York-1_tcm272-2256848.jpg");*/
   margin-top: 50px;
   background-color: black;
@@ -116,3 +155,6 @@ footer .row {
   align-items: center;
 }
 
+.interest-image { 
+     margin-top: 40px;
+} 

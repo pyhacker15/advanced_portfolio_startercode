@@ -1,0 +1,127 @@
+<!Doctype html>
+<head>  
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <link rel="icon" href="images/favicon.ico" type="image/x-icon" size="32x32">
+   <title>Contact - Louis Gabrie</title>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <script src="https://cdhfnfnuffbjfngnffbudnjs.cloudflare.com/fhghtghtutuhghghghghghghghgggajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+   <script src="js/script.js"></script>
+   <link rel="stylesheet" type="text/css" href="css/contact.css">
+   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Nav Bar------------------------------------------>
+  <header class="container-fluid nav_bar">
+      <div class="row"> 
+         <div class="col-md-12 col-sm-12 col-xs-6">
+             <h1>Louis Gabrie</h1>
+         </div>
+      </div>
+    <div class="row">
+      <p id="sub-heading" class="col-md-6 col-sm-6 col-xs-3">High School Student</p>
+      <nav class="col-md-6 col-sm-6 col-xs-9">
+        <p><a href="index.html">home</a></p>
+        <p><a href="#about">about</a></p>
+        <p><a href="contact.html">contact</a></p>
+        <p><a href="projects.html">projects</a></p>
+      </nav>
+    </div>
+  </header>
+    <section class="socialMedia">
+      <h3>Social Media</h3>
+      <h5>Be sure to visit my social media.</h5>
+      <a href="https://www.linkedin.com/in/louis-gabrie-a49a47157/" target="_blank"><img id="icon" src="https://png.icons8.com/color/96/000000/linkedin.png"></a>
+      <a href="https://github.com/pyhacker15" target="_blank"><img id="icon" src="https://png.icons8.com/windows/96/000000/github.png"></a>
+      <a href="https://scriptedstudents.slack.com/messages/D7BNJ361K/team/U7BL1HNMS/" target="_blank"><img id="icon" src="https://png.icons8.com/color/96/000000/slack.png"></a>
+      <a href="https://www.sololearn.com/Profile/1035126" target="_blank"><img id="icon" src="https://www.sololearn.com/images/fb-story-icon.jpg"></a>
+      <a href="https://codepen.io/pyhacker15/" target="_blank"><img id="icon" src="https://png.icons8.com/color/96/000000/codepen.png"></a>
+    </section>
+    
+    <p id="line2"></p>
+  
+   <div class="container">
+     <div class="row">
+       <div class="col-sm-12 col-md-12 col-lg-12">
+     <form class="needs-validation" action="https://formspree.io/louisgabrie1450@gmail.com" method="POST">
+       <div class="form-group">
+         <label for="firstName" class="#">First Name</label>
+           <div class="#">
+             <input type="text" class="form-control" name="First Name: " id="firstName" placeholder="First Name" value="" required>
+           </div>
+           <div class="invalid-feedback">
+             Please choose a username.
+           </div>
+       </div> 
+        <div class="form-group">
+          <label for="lastName" class="col-form-label">Last Name</label>
+           <div class="#">
+             <input type="text" class="form-control" name="Last Name: " id="lastName" placeholder="Last Name" value="" required>
+           </div>
+           <div class="invalid-feedback">
+             Please choose a username.
+           </div>
+        </div>
+       <div class="form-group">
+          <label for="email" class="#">Email</label>
+            <div class="#">
+             <input type="email" class="form-control" name="Email: " id="email" placeholder="Enter your email" value="" required>
+           </div>
+           <div class="invalid-feedback">
+             Please choose a username.
+           </div>
+       </div>
+       <div class="form-group">
+          <label for="telephone" class="#">Phone #</label>
+            <div class="#">
+             <input type="telephone" class="form-control" name="Phone Number: " id="telephone" placeholder="Enter your phone number">
+           </div>
+       </div>
+       <div class="form-group">
+          <label for="selectMenu" name="Reason for Reaching Out: " class="#">Reason</label>
+           <select id="selectMenu" value="" required>
+             <option>Select a reason</option>
+             <option>Full-Time Job Offer</option>
+             <option>Just a Message</option>
+             <option>Internship</option>
+             <option>Part-Time Job Offer</option>
+             <option>Friend reaching out</option>
+           </select>
+       </div>
+       <div class="form-group">
+          <label for="message" name="Message: " class="#">Message</label>
+          <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+          <small id="passwordHelpBlock" class="form-text text-muted">
+           Your message must be no longer than 250 words.
+          </small>
+       </div>
+       <div class="form-group">
+         <button type="submit" value="Send" class="btn btn-primary">Send</button>
+       </div>
+    </form>
+    </div>
+    </div>
+    </div>
+    
+  <footer id="contact" class="container-fluid">
+    <div class="row">
+      <p class="col-sm-4">&copy; 2018 Louis Gabrie</p>
+      <ul class="col-sm-8">
+        <li class="col-sm-1">
+        <a href="https://twitter.com/louisgabrie" target="_blank">
+          <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/twitter.svg"> </a>
+        </li>
+        <li class="col-sm-1">
+        <a href="https://instagram.com/a_visual_bliss" target="_blank"> 
+          <img src="https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/instagram.svg"> </a>
+       </li>
+       </ul>
+     </div>
+   </footer>  
+</body>
+</html>

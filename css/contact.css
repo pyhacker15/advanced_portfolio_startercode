@@ -1,0 +1,135 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+/*HEADER--------------------->*/
+
+nav a {
+  padding: 0 19px;
+  margin: 0;
+  color: white;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+ nav a:hover { 
+    text-decoration: none;
+} 
+
+header nav {
+     display: flex;
+     justify-content: flex-end;
+     flex-wrap: wrap;
+}
+
+#sub-heading { 
+     font-size: 15px;
+     color: white;
+} 
+
+.row { 
+     margin-left: 0px;    
+} 
+
+header h1 {
+     margin: 0;
+     font-family: Oswald;
+     color: white;
+     font-size: 20px; 
+     margin-top: 20px;
+}
+
+header .row {
+     display: flex;
+     align-items: center;
+}
+
+header {
+  padding: 12px;
+  background-color: black;
+  font-size: smaller;
+}
+
+/*-------------------------------------->*/
+
+.socialMedia { 
+     margin-top: 300px;
+     margin-left: 200px;
+} 
+
+.socialMedia h3 { 
+     margin-left: 55px; 
+} 
+
+.socialMedia h5 {
+     color: grey;
+}
+
+#icon { 
+      width: 35px;
+      height: 35px;
+      margin-left: 14px;
+} 
+
+#line2 {
+    position: absolute;
+    width: 600px;
+    height: 0px;
+    left: 395px;
+    top: 450px;
+    border: 1px solid #000000;
+    transform: rotate(90.06deg);
+}
+
+form { 
+     margin-top: -350px;
+     margin-left: 580px;
+
+}
+
+.form-control { 
+    display: block;
+    margin-bottom: 10px;
+    width: 600px;
+} 
+
+footer {
+  font-size: 12px;
+  padding: 30px 0;
+  background-color: black;
+  margin-top: 30px;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+ footer .col-sm-4 {
+   color: #FFF; 
+}
+
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+/*.jumbotron-fluid  { */
+/*     background-image: url("https://img00.deviantart.net/3a6a/i/2011/314/0/2/site_under_contruction_by_gudkiller01-d4fp3la.jpg");  */
+/*     background-size: cover;*/
+/*     height: 700px;*/
+/*     margin-bottom: -50px;*/
+/*}*/
