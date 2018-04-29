@@ -156,5 +156,9 @@ footer .row {
 }
 
 .interest-image { 
-     margin-top: 40px;
+     margin-top: 20px;
+} 
+
+.interest-description { 
+     text-align: justify;  
 } 
